@@ -72,8 +72,8 @@ body {
 .menu ul li:hover ul {
   display: block;
   position: absolute;
-  columns: 3;
-  right: 0;
+  columns: 2;
+  left: -80px;;
   opacity: 1;
 }
 
