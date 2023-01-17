@@ -106,10 +106,29 @@ thead th {
 
 footer {
   background-color: var(--cor03);
- 
+  padding: 5px;
   text-align: center;
   
 }
+
+.pag1 {
+  
+  background-color: var(--cor05);
+  padding: 30px;
+  margin: 50px;
+  box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.644);
+}
+
+.reuniao {
+  text-align: center;
+  margin-top: 50px;
+}
+
+.pag1 p {
+  margin-top: 20px;
+}
+
+
 
 
 
