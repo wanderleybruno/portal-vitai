@@ -1,13 +1,12 @@
-*{
-  padding: 0;
-  margin: 0;
+* {
+  margin: 0px;
+  padding: 0px;
 }
-img {
-  width: 60px;
-  position: absolute;
-}
+
 body {
   font-family: Arial, Helvetica, sans-serif;
+  
+  
 }
 :root {
   --cor01:#188FD9;
@@ -17,16 +16,29 @@ body {
   --cor05:#D5E5F2; 
 }
 
+
+
+.menu img {
+  width: 60px;
+  position: absolute;
+  margin-left: 8px;
+  margin-top: 5px;
+}
+
+
 .menu ul{
   list-style-type: none;
   padding: 0;
+  
 
 }
 
 .menu ul {
   background-color: var(--cor01);
+  margin-top: 0px;
   margin-left: 80px;
   box-shadow: 2px 2px 8px 1px;
+  
   
 }
 
@@ -61,6 +73,43 @@ body {
   display: block;
   position: absolute;
   columns: 3;
-  left: -1;
+  left: 1;
   opacity: 1;
 }
+
+table {
+  width: 900px;
+  border-collapse: collapse;
+  margin: auto;
+  margin-top: 50px;
+  margin-bottom: 100px;
+  
+
+  
+}
+
+td {
+  border: 1px solid black;
+  text-align: center;
+  padding: 5px;
+}
+
+tbody tr:nth-child(2n) {
+  background-color: var(--cor05);
+}
+
+thead th {
+  border: 1px solid black;
+  padding: 10px;
+  background-color: var(--cor02);
+}
+
+footer {
+  background-color: var(--cor03);
+ 
+  text-align: center;
+  
+}
+
+
+
