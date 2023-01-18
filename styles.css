@@ -6,6 +6,11 @@
 body {
   font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
   font-size: 1em;
+  width:100%;
+  height: 100%;
+  min-width: 250px;
+  max-width: 900px;
+  
   
   
 }
@@ -17,7 +22,15 @@ body {
   --cor05:#D5E5F2; 
 }
 
-
+caption {
+  padding: 10px;
+  font-weight: bold;
+  background-image: linear-gradient(to right,rgb(192, 202, 224),rgba(29, 112, 207, 0.719));
+  border: 1px solid black;
+  color:white;
+  text-shadow: 2px 2px 3px black;
+  box-shadow: 2px 2px 6px black;
+}
 
 .menu img {
   width: 60px;
@@ -106,12 +119,6 @@ thead th {
   background-color: var(--cor04);
 }
 
-footer {
-  background-color: var(--cor03);
-  padding: 5px;
-  text-align: center;
-  
-}
 
 .pag1 {
   padding-bottom: 5px;
@@ -164,20 +171,12 @@ aside ul li {
   list-style-position:inside;
 }
 
-
-
-
-
-caption {
-  padding: 10px;
-  font-weight: bold;
-  background-image: linear-gradient(to right,rgb(192, 202, 224),rgba(29, 112, 207, 0.719));
-  border: 1px solid black;
-  color:white;
-  text-shadow: 2px 2px 3px black;
-  box-shadow: 2px 2px 6px black;
+footer {
+  background-color: var(--cor03);
+  padding: 5px;
+  text-align: center;
+  
 }
-
 
 
 
