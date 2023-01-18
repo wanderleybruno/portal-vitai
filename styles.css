@@ -78,12 +78,13 @@ body {
 }
 
 table {
-  width: 900px;
+  width: 100%;
   border-collapse: collapse;
   margin: auto;
   margin-top: 50px;
   margin-bottom: 100px;
-  max-width: 500PX;
+  min-width: 200PX;
+  max-width: 900PX;
   
   
 
