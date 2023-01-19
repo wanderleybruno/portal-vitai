@@ -28,17 +28,16 @@ caption {
 }
 
 .menu img {
-  width: 60px;
+  height:40px;
   position: absolute;
   margin-left: 8px;
-  margin-top: 5px;
+  margin-top: 7px;
 }
 
 
 .menu ul {
   background-color: var(--cor01);
-  margin-top: 0px;
-  margin-left: 80px;
+  margin-left: 90px;
   box-shadow: 2px 2px 8px 1px;
   
   
@@ -47,7 +46,7 @@ caption {
 .menu ul li {
   display: inline;
   position:relative ;
-  font-size: 1.5vw;
+  font-size: 20px;
 }
 
 .menu ul li a {
@@ -184,12 +183,12 @@ footer {
   margin: 50px;
   background-color: var(--cor03);
   border: 1px solid black;
-  height: 200px;
+  height: 40px;
   text-align: center;
+  
 }
 
 #upapac {
-  background-image: url(img/upapac.jpg.crdownload);
   background-position: center center;
   background-size: cover;
 }
