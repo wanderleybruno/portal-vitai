@@ -35,13 +35,6 @@ caption {
 }
 
 
-.menu ul{
-  list-style-type: none;
-  padding: 0;
-  
-
-}
-
 .menu ul {
   background-color: var(--cor01);
   margin-top: 0px;
@@ -54,6 +47,7 @@ caption {
 .menu ul li {
   display: inline;
   position:relative ;
+  font-size: 1.5vw;
 }
 
 .menu ul li a {
@@ -142,6 +136,10 @@ thead th {
   
 }
 
+.confo-sis ul {
+  margin-top: 50px;
+}
+
 .tecpres {
   margin-top: 10px;
   list-style-position:inside;
@@ -157,14 +155,14 @@ aside ol {
   text-decoration: underline;
   background-color: var(--cor04);
   box-shadow: 1px 2px 7px black;
-
-  
 }
 
-aside ul li {
-  margin: 5px;
+aside ul li  {
+  margin-top: 10px;
   list-style-position:inside;
 }
+
+
 
 footer {
   background-color: var(--cor03);
