@@ -39,6 +39,7 @@ caption {
   background-color: var(--cor01);
   margin-left: 90px;
   box-shadow: 2px 2px 8px 1px;
+  display: flex;
   
   
 }
@@ -75,7 +76,7 @@ caption {
   display: block;
   position: absolute;
   columns: 2;
-  left:1;
+  right:0;
   opacity: 1;
 }
 
@@ -170,28 +171,8 @@ footer {
   
 }
 
-.driver {
-  display: grid;
-  grid-template-columns: 350px 350px 350px;
-  margin-top: 100px;
-  margin-bottom: 200px;
-  
-  
-}
 
-.arquivos {
-  margin: 50px;
-  background-color: var(--cor03);
-  border: 1px solid black;
-  height: 40px;
-  text-align: center;
-  
-}
 
-#upapac {
-  background-position: center center;
-  background-size: cover;
-}
 
 
 
