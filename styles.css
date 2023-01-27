@@ -8,11 +8,7 @@ body {
   font-size: 16px;
   background-image: linear-gradient(to left, #188fd95e,#72c1f248);
  
-  
-  
-  
- 
-  
+
 }
 :root {
   --cor01:#188FD9;
@@ -47,6 +43,7 @@ caption {
   display:flex;
   
   
+  
 }
 
 .menu ul li {
@@ -62,6 +59,8 @@ caption {
   padding: 10px;
   transition: background 0.4s;
 }
+
+
 
 .menu ul li a:hover {
   background-color: var(--cor02);
@@ -121,6 +120,24 @@ thead th {
   padding: 30px;
   box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.644);
 }
+
+.pag01#princ {
+  background-color:var(--cor04);
+  list-style-type:square;
+  padding-left: 50px;
+  margin: 30px;
+  border: 1px solid black;
+  box-shadow: 1px 2px 8px black;
+  
+  
+}
+
+.pag01 li {
+  margin: 10px;
+  padding: 10px;
+}
+
+
 
 .reuniao {
   text-align: center;
@@ -185,10 +202,12 @@ footer {
   background-color: rgba(29, 112, 207, 0.719);
   color: white;
   position: absolute;
-  right: 40px;
+  right: 90px;
   border-radius: 5px;
   font-weight: bold;
   font-size: 9pt;
+  right: 15%;
+  
 
 }
 
@@ -197,17 +216,19 @@ footer {
   transition: .5s;
   border-color: var(--cor01);
   color: #188FD9;
+  position: absolute;
   
 }
 
 .down {
-  position: relative;
+  
   width: 70%;
   margin: 30px auto;
   padding-bottom: 5px;
   background-color: var(--cor05);
   padding: 30px;
   box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.644);
+   
 }
 
 .loading {
