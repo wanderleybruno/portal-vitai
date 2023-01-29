@@ -40,7 +40,57 @@
         
       </ul>
     </nav>
-      <h1 class="loading">Em breve...</h1>
+      <h1 class="troca">Solicitação de Troca</h1>
+
+      <form class="form_troca" name="meu_form">
+
+        
+      
+        <input type="text" id="nomeid" placeholder="Nome e sobrenome" required="required" name="nome" />
+        <label for="nome">Solicitante</label>
+
+        <input type="date" id="dateid" placeholder="data" required="required" name="data"> <label for="data">Data da Troca</label>
+      
+        <input type="tel" id="foneid" placeholder="(XX)XXXXXXXXX" required="required" name="fone" />
+        <label for="fone">Celular (WhatsApp)</label>
+      
+        <input type="email" id="emailid" placeholder="exemplo@vitai.com.br" required="required" name="email" />
+        <label for="email">Email Corporativo</label>
+
+        <p>Qual unidade ?</p>
+        
+        <div class="form_unidade">
+          <input type="radio" name="unidade" required="required" value="gazolla"/>Gazolla<br/>
+          <input type="radio" name="unidade" required="required" value="rocha_faria"/>Rocha Faria<br/>
+          <input type="radio" name="unidade" required="required" value="upa_del_castilho"/>UPA Del Castilho<br/>
+          <input type="radio" name="unidade" required="required" value="upa_senador_camara"/>UPA Senador Camará<br/>
+          <input type="radio" name="unidade" required="required" value="upa_magalhaes_bastos"/>UPA Magalhães Bastos<br/>
+          <input type="radio" name="unidade" required="required" value="upa_paciencia"/>UPA Paciência<br/>
+          <input type="radio" name="unidade" required="required" value="upa_vila_kennedy"/>UPA Vila kennedy<br/>
+          <input type="radio" name="unidade" required="required" value="upa_costa_barros"/>UPA Costa Barros<br/>
+          <input type="radio" name="unidade" required="required" value="upa_rocinha"/>UPA Rocinha<br/>
+          <input type="radio" name="unidade" required="required" value="cerbarra"/>CerBarra<br/>
+          <input type="radio" name="unidade" required="required" value="cerleblon"/>CerLeblon<br/>
+          <input type="radio" name="unidade" required="required" value="upa_cdd"/>UPA CDD<br/>
+          <input type="radio" name="unidade" required="required" value="upa_rocha_miranda"/>UPA Rocha Miranda<br/>
+          <input type="radio" name="unidade" required="required" value="upa_madureira"/>UPA Madureira<br/>
+          <input type="radio" name="unidade" required="required" value="upa_engenho_de_dentro"/>UPA Engenho de Dentro<br/>
+          <input type="radio" name="unidade" required="required" value="upa_joao_xxiii"/>UPA João XXIII<br/>
+          <input type="radio" name="unidade" required="required" value="upa_sepetiba"/>UPA Sepetiba<br/>
+          
+
+        </div>
+      
+        <textarea placeholder="Observações"></textarea>
+      
+        
+          <div class="btnenv">
+            <input type="submit" class="enviar" onclick="Enviar();" value="Enviar" />
+            <input type="reset" class="enviar" onclick="Enviar();" value="Redefinir" />
+          </div>
+        
+      </form>
+      
       
 
   </body>
