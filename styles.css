@@ -249,7 +249,7 @@ form {
   font-family: Verdana,Tahoma,sans-serif;
   font-size: 15px;
   background-color: var(--cor02);
-  max-width: 500px;
+  max-width: 700px;
   padding: 30px;
   border-radius: 25px;
   margin: auto;
@@ -257,19 +257,24 @@ form {
 }
 
 textarea {
-  margin: auto;
-  
+  display: block;
+
 }
 
-input, select {
+
+
+input, select  {
   width: 250px;
   padding: 10px;
   color: black;
-  margin-left: 10px;
-  margin-top: 10px;
+  margin: 5px auto;
   -webkit-border-radius: 5px;
   -moz-border-radius: 5px;
   border: 1px solid;
+}
+
+#iunidade {
+  
 }
 
 
@@ -323,22 +328,31 @@ input:hover, textarea:hover, input:focus, textarea:focus  {
   
 }
 
+/* Botão de ENVIAR e Redefinir da ABA "TROCAS" */
+
 .btnenv {
   display: flex;
 
 }
 
+/* Campo de observação da ABA "TROCAS" */
 
 textarea {
-  width: 400px;
-  height: 120px;
-  line-height: 20px;
+  
+  line-height: 25px; 
   max-width: 560px;
+  display: block;
+  margin: 0 auto;
+  text-align: center;
+  
+  
 }
 
-form label {
-  margin-left: 20px;
-  color: #FFFFFF;
+/* Texto dentro da ABA "TROCAS" */
+
+.form_troca  label {
+  margin-left: 9px;
+  color: #ffffff;
   font-weight: bold;
 }
 

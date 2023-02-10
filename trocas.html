@@ -45,20 +45,24 @@
       <form class="form_troca" name="meu_form">
 
         
-      
-        <input type="text" id="nomeid" placeholder="Nome e sobrenome" required="required" name="nome" />
-        <label for="nome">Solicitante</label>
-
-        <input type="date" id="dateid" placeholder="data" required="required" name="data"> <label for="data">Data da Troca</label>
-      
-        <input type="tel" id="foneid" placeholder="(XX)XXXXXXXXX" required="required" name="fone" />
-        <label for="fone">Celular (WhatsApp)</label>
-      
-        <input type="email" id="emailid" placeholder="exemplo@vitai.com.br" required="required" name="email" />
-        <label for="email">Email Corporativo</label>
-
         <p>
-          <label for="iunidade">Unidade :</label>
+          <input type="date" id="dateid" placeholder="data" required="required" name="data">
+          <label class="itroca" for="data">Data da Troca</label>
+        </p> 
+      
+        <p>
+          <input type="tel" id="foneid" placeholder="(XX)XXXXXXXXX" required="required" name="fone" />
+          <label class="itroca" for="fone" >Celular (WhatsApp)</label>
+        </p>
+        
+        <p>
+          <input type="email" id="emailid" placeholder="exemplo@vitai.com.br" required="required" name="email" />
+          <label class="itroca" for="email">Email Corporativo</label>
+        </p>
+        
+        <p>
+        
+          
           
           <select name="unidade" id="iunidade">
             <option value="gazolla">Gazolla</option>
@@ -70,16 +74,17 @@
             <option value="upa_vila_kennedy">UPA Vila Kennedy</option>
             <option value="upa_costa_barros">UPA Costa Barros</option>
             <option value="upa_rocinha">UPA Rocinha</option>
-            <option value="cerbarra">Cer Barra</option>
-            <option value="cerleblon">Cer Leblon</option>
+            <option value="cerbarra">UPA Sepetiba</option>
+            <option value="cerleblon">UPA João XXIII</option>
             <option value="upa_cdd">UPA Cidade de Deus</option>
             <option value="upa_rocha_miranda">UPA Rocha Miranda</option>
             <option value="upa_madureira">UPA Madureira</option>
             <option value="upa_engenho_de_dentro">UPA Engenho de Dentro</option>
-            <option value="upa_joao_xxiii">UPA João XXIII</option>
-            <option value="upa_sepetiba">UPA Sepetiba</option>
+            <option value="upa_joao_xxiii">Cer Leblon</option>
+            <option value="upa_sepetiba">Cer Barra</option>
             
           </select>
+          <label class="itroca" for="iunidade" required="required" name="unidade">Unidade</label>
         </p>
         
        <!-- <div class="form_unidade">
@@ -105,7 +110,7 @@
         </div>
       -->
 
-        <textarea placeholder="Observações"></textarea>
+        <textarea placeholder=" Observações"></textarea>
       
         
           <div class="btnenv">
