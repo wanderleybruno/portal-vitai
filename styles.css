@@ -256,7 +256,12 @@ form {
   
 }
 
-input, textarea {
+textarea {
+  margin: auto;
+  
+}
+
+input, select {
   width: 250px;
   padding: 10px;
   color: black;
