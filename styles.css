@@ -256,14 +256,14 @@ form {
   
 }
 
-input, textarea {
+input,  .form-unidade {
   width: 250px;
   padding: 10px;
   color: black;
   margin-left: 10px;
   margin-top: 10px;
-  -webkit-border-radius: 5px;
   -moz-border-radius: 5px;
+  border-radius: 5px;
   border: 1px solid;
 }
 
@@ -283,34 +283,22 @@ input:hover, textarea:hover, input:focus, textarea:focus  {
   
 }
 
-.form_unidade input {
-  width: 40px;
-  margin-left: 5px;
+.form-unidade {
+  width: 273px;
   
 }
 
-.form_unidade {
-  columns: 2;
-  margin-bottom: 10px;
-}
 
 
-.form_troca p {
-  font-size: 1.3em;
-  color: black;
-  margin: 15px;
-  
-  
-}
 
 .enviar {
   background-color: rgba(23, 62, 235, 0.151);
   height: 40px;
   width: 100px;
   font-weight: bold;
-  border-radius: 5px;
-  -webkit-border-radius: 5px;
   -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  border-radius: 5px;
   border: 1px solid;
   color: black;
   margin-left:100px;
@@ -323,12 +311,14 @@ input:hover, textarea:hover, input:focus, textarea:focus  {
 
 }
 
-
-textarea {
-  width: 400px;
-  height: 120px;
-  line-height: 20px;
-  max-width: 560px;
+#textobs {
+  position: relative;
+  display: inline-block;
+  width: 500px;
+  height: 200px;
+  margin-top: 30px;
+  resize: none;
+  text-align: center;
 }
 
 form label {
