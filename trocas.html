@@ -43,20 +43,20 @@
       <h1 class="troca">Solicitação de Troca</h1>
 
       <form class="form_troca" name="meu_form" method="post" autocomplete="on">
-
-        
-      
-        <input type="text" id="nomeid" placeholder="Nome e sobrenome" required name="nome" autocomplete="name" />
+       
         <label for="nome">Solicitante</label>
-
-        <input type="date" id="dateid" placeholder="data" required="required" name="data"> <label for="data">Data da Troca</label>
-      
-        <input type="tel" id="foneid" placeholder="(XX)XXXXXXXXX" required="required" name="fone" />
+        <input type="text" id="nomeid" placeholder="Nome e sobrenome" required name="nome" autocomplete="name" />
+        
+        <label for="data">Data da Troca</label>
+        <input type="date" id="dateid" placeholder="data" required="required" name="data">
+        
         <label for="fone">Celular (WhatsApp)</label>
-      
-        <input type="email" id="emailid" placeholder="exemplo@vitai.com.br" required="required" name="email" />
+        <input type="tel" id="foneid" placeholder="(XX)XXXXXXXXX" required="required" name="fone" />
+        
         <label for="email">Email Corporativo</label>
-
+        <input type="email" id="emailid" placeholder="exemplo@vitai.com.br" required="required" name="email" />
+        
+        <label for="unidade">Unidade</label>
         <select name="unidade" class="form-unidade">
           <option value="gazolaa">Gazolla</option>
           <option value="rochafaria">Rocha Faria</option>
@@ -72,21 +72,27 @@
           <option value="paciencia">(UPAPAC) UPA Paciência</option>
           <option value="rocinha">(UPAROC) UPA Rocinha</option>
           <option value="senadorcamara">(UPASC)UPA Senador Camará</option>
-          <option value="sepetiba">(UPASPB</option>
+          <option value="sepetiba">(UPASPB) UPA Sepetiba</option>
+          <option value="vilakennedy">(UPAVK) UPA Vila Kennedy</option>
         </select>
+        
+        <textarea placeholder="Observações"></textarea>
+      
+        
+        <div class="btnenv">
+          <input type="submit" class="enviar" onclick="Enviar();" value="Enviar" />
+          <input type="reset" class="enviar" onclick="Enviar();" value="Redefinir" />
+        </div>
+      </form>  
+      
+    
+    
+  
 
         
       
       
-        <textarea placeholder="Observações"></textarea>
-      
         
-          <div class="btnenv">
-            <input type="submit" class="enviar" onclick="Enviar();" value="Enviar" />
-            <input type="reset" class="enviar" onclick="Enviar();" value="Redefinir" />
-          </div>
-        
-      </form>
       
       
 
