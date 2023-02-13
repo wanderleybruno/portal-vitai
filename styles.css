@@ -249,22 +249,27 @@ form {
   font-family: Verdana,Tahoma,sans-serif;
   font-size: 15px;
   background-color: var(--cor02);
-  max-width: 500px;
+  max-width: 700px;
   padding: 30px;
   border-radius: 25px;
   margin: auto;
   
 }
 
-input,  .form-unidade {
+input, textarea {
   width: 250px;
   padding: 10px;
   color: black;
   margin-left: 10px;
   margin-top: 10px;
+  -webkit-border-radius: 5px;
   -moz-border-radius: 5px;
   border-radius: 5px;
   border: 1px solid;
+}
+
+#iunidade {
+  
 }
 
 
@@ -306,24 +311,26 @@ input:hover, textarea:hover, input:focus, textarea:focus  {
   
 }
 
+/* Botão de ENVIAR e Redefinir da ABA "TROCAS" */
+
 .btnenv {
   display: flex;
 
 }
 
-#textobs {
-  position: relative;
-  display: inline-block;
-  width: 500px;
-  height: 200px;
-  margin-top: 30px;
-  resize: none;
-  text-align: center;
+
+textarea {
+  width: 400px;
+  height: 120px;
+  line-height: 20px;
+  max-width: 560px;
 }
 
-form label {
-  margin-left: 20px;
-  color: #FFFFFF;
+/* Texto dentro da ABA "TROCAS" */
+
+.form_troca  label {
+  margin-left: 9px;
+  color: #ffffff;
   font-weight: bold;
 }
 
