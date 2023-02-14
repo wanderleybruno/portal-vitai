@@ -13,36 +13,39 @@
     
   <nav class="menu">
       <img src="img/logo-vitai-2.svg" alt="Logo-vitai">
-      <ul>
-       
-        <li><a href="index.html">Inicio</a></li>
-        <li><a href="informaçoes.html">Informações</a></li>
-        <li><a href="#">Escala</a>
-         <ul>
-            <li><a href="gazolla.html">Gazolla</a></li>
-            <li><a href="rochafaria.html">Rocha Faria</a></li>
-            <li><a href="rocinha.html">Rocinha</a></li>
-            <li><a href="cerbarra.html">CerBarra</a></li>
-            <li><a href="cerleblon.html">CerLeblon</a></li>
-            <li><a href="cidadededeus.html">Cidade de Deus</a></li>
-            <li><a href="vilakennedy.html">Vila Kennedy</a></li>
-            <li><a href="rochamiranda.html">Rocha Miranda</a></li>
-            <li><a href="madureira.html">Madureira</a></li>
-            <li><a href="delcastilho.html">Del Castilho</a></li>
-            <li><a href="costabarros.html">Costa Barros</a></li>
-            <li><a href="engenhodedentro.html">Engenho de Dentro</a></li>
-            <li><a href="Senadorcamara.html">Senador Camará</a></li>
-            <li><a href="magalhaesbastos.html">Magalhães Bastos</a></li>
-            <li><a href="paciencia.html">Paciência</a></li>
-            <li><a href="joaoxxiii.html">João XXIII</a></li>
-            <li><a href="sepetiba.html">Sepetiba</a></li>
-          </ul>
-          <li><a href="downloads.html">Downloads</a></li>
-          <li><a href="trocas.html">Trocas</a></li>
-          
-        </li>
+      <span id="burguer" class="material-symbols-outlined" onclick="clickMenu()">menu</span>
+      <menu id="itens">
+        <ul>
         
-      </ul>
+          <li><a href="index.html">Inicio</a></li>
+          <li><a href="informaçoes.html">Informações</a></li>
+          <li><a href="#">Escala</a>
+           <ul>
+              <li><a href="gazolla.html">Gazolla</a></li>
+              <li><a href="rochafaria.html">Rocha Faria</a></li>
+              <li><a href="rocinha.html">Rocinha</a></li>
+              <li><a href="cerbarra.html">CerBarra</a></li>
+              <li><a href="cerleblon.html">CerLeblon</a></li>
+              <li><a href="cidadededeus.html">Cidade de Deus</a></li>
+              <li><a href="vilakennedy.html">Vila Kennedy</a></li>
+              <li><a href="rochamiranda.html">Rocha Miranda</a></li>
+              <li><a href="madureira.html">Madureira</a></li>
+              <li><a href="delcastilho.html">Del Castilho</a></li>
+              <li><a href="costabarros.html">Costa Barros</a></li>
+              <li><a href="engenhodedentro.html">Engenho de Dentro</a></li>
+              <li><a href="Senadorcamara.html">Senador Camará</a></li>
+              <li><a href="magalhaesbastos.html">Magalhães Bastos</a></li>
+              <li><a href="paciencia.html">Paciência</a></li>
+              <li><a href="joaoxxiii.html">João XXIII</a></li>
+              <li><a href="sepetiba.html">Sepetiba</a></li>
+            </ul>
+            <li><a href="downloads.html">Downloads</a></li>
+            <li><a href="trocas.html">Trocas</a></li>
+        
+          </li>
+        
+        </ul>
+      </menu>
     </nav>
       <main>
         <div class="pag">
@@ -75,6 +78,16 @@
         
       </main>
 
+      <script>
+        
+        function clickMenu() {
+          if (itens.style.display == 'block') {
+            itens.style.display = 'none'
+          } else {
+            itens.style.display = 'block'
+          }
+        }
+    </script>
   </body>
   
   <footer> <p>Site criado por <a href="https://www.linkedin.com/in/bruno-dos-santos-845595197/" rel="noopener" target="_blank">Bruno Santos</a> em 2022 | Todos os direitos reservados</p> </footer>
