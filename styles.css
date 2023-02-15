@@ -149,6 +149,7 @@ thead th {
 .pag p {
   margin: 10px;
   
+  
 }
 
 .confo-sis, .responsabilidades {
@@ -192,7 +193,7 @@ footer {
   padding: 13px;
   text-align: center;
   clear: both;
-  width: 99%;
+  width: 100;
   margin-top: 100px;
   
 }
