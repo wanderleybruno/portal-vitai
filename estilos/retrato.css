@@ -1,5 +1,15 @@
 @charset "UTF-8";
 
+/* VERSÃO MOBILE */
+
+:root {
+  --cor01:#188FD9;
+  --cor02:#4BB2F2;
+  --cor03:#72C1F2;
+  --cor04:#9BD1F2;
+  --cor05:#D5E5F2; 
+}
+
 
 @media only screen and (max-width: 480px) {
     
@@ -7,38 +17,7 @@
     margin: 0px;
     padding: 0px;
    }
-    
-   .menu ul ul {  /* Sub-menu Escala */
-    grid-column: ;
-    
-   }
-
-    .menu {
-      display:flex;
-      flex-direction: column;
-      align-items:center;
-      color:white;
-    
-    }
-    .menu img {
-      margin-bottom: 10px;
-      position:relative;
-      background-repeat: repeat-y;
-      
-    }
-    .menu ul {
-      
-      flex-direction: column;
-      
-      width: 98vw;
-      list-style-type: none;
-      position: relative;
-      
-    
-    }
-
-    
-
+   
     .pag01#princ {
       background-color: var(--cor04);
       list-style-type: disc;
@@ -48,13 +27,6 @@
       margin-bottom: 30px;
       border: 1px solid black;
       box-shadow: 1px 2px 9px rgba(0, 0, 0, 0.61);
-    }
-    
-    .menu li {
-      width: 100vw;
-      position: relative;
-      margin-left: -3px;
-    
     }
     
    .pag {
@@ -78,24 +50,67 @@
     margin-top: 10px;
    }
 
-   #itens {
-   margin-right: 72px;
-   
-   }
+/* ----------------  TESTE  -------------------  */
 
-   span#burguer {
-    background-color: var(--cor01);
-    padding: 10px 182px;
-    cursor: pointer;
-    
-   }
+/* Estilos básicos para o menu */
+.menu {
+  background-image: linear-gradient(to left, white,var(--cor01));
+  color: #fff;
+  
+}
 
-   menu > ul > li > a {
-    
-    background-color: var(--cor01);
-    color: white; 
-    border-top: 2px solid var(--cor03);
-    
+/* Estilos para a imagem do logo */
+.menu img {
+  display: block;
+  left: 80%;
+  
+}
 
+/* Estilos para o ícone do menu hamburguer */
+#burguerindex {
+  display: block;
+  padding: 10px;
+}
+
+/* Estilos para o menu principal */
+#itens {
+  display: none;
+}
+
+/* Estilos para os itens do menu */
+#itens ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+#itens ul li {
+  border-bottom: 1px solid #fff;
+}
+
+#itens ul li a {
+  display: block;
+  padding: 10px;
+}
+
+/* Estilos para o menu expandido */
+#itens.expandido {
+  display: block;
+}
+
+
+ 
+/* ------------------------- outro teste -------------------------  */
+
+}
+
+@media (min-width: 768px) {
+  /* Estilos para telas maiores */
+  #itens {
+    display: block;
+  }
+  
+  #burguerindex {
+    display: none;
   }
 }

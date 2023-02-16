@@ -37,7 +37,6 @@ caption {
   margin-top: 7px;
 }
 
-
 .menu ul {
   background-color: var(--cor01);
   margin-left: 70px;
@@ -327,18 +326,5 @@ textarea {
 .enviar:hover {
   background-color:var(--cor04);
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
