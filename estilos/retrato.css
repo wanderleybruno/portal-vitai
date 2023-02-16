@@ -21,16 +21,14 @@
     .pag01#princ {
       background-color: var(--cor04);
       list-style-type: disc;
-      padding-left: 20px;
-      margin: 5px;
-      margin-top: 30px;
-      margin-bottom: 30px;
+      width: 329px;
+      margin: 30px 5px 30px 5px;
       border: 1px solid black;
       box-shadow: 1px 2px 9px rgba(0, 0, 0, 0.61);
     }
-    
+
    .pag {
-    width: 100%;
+    width: 360px;
     margin-left: -30px;
    }
 
