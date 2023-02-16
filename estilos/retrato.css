@@ -81,7 +81,8 @@
 #itens ul {
   list-style: none;
   margin: 0;
-  padding: 0;
+  padding: 0px;
+  
 }
 
 #itens ul li {
@@ -90,7 +91,7 @@
 
 #itens ul li a {
   display: block;
-  padding: 10px;
+  padding: 9px;
 }
 
 /* Estilos para o menu expandido */

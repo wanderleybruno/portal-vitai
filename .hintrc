@@ -35,6 +35,7 @@
           "user-select"
         ]
       }
-    ]
+    ],
+    "highest-available-document-mode": "off"
   }
 }
