@@ -85,6 +85,10 @@ caption {
   opacity: 1;
 }
 
+#burguerindex {
+  display: none;
+}
+
 table {
   width: 60%;
   border-collapse: collapse;
@@ -114,12 +118,16 @@ thead th {
 }
 
 
-.pag {
+main.pag {
   margin: 50px 10px 50px 10px;
   padding-bottom: 5px;
   background-color: var(--cor05);
   padding: 30px;
   box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.644);
+  width: 70%;
+  
+  
+  
 }
 
 .pag01#princ {
@@ -320,11 +328,18 @@ textarea {
   width: 250px;
   padding: 10px;
   margin-left: 5px;
+  display: block;
   
 }
 
 .enviar:hover {
   background-color:var(--cor04);
+}
+
+.enviar {
+  display: block;
+  width: 100%;
+ 
 }
 
 
