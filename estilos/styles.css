@@ -118,15 +118,14 @@ thead th {
 }
 
 
-main.pag {
-  margin: 50px 10px 50px 10px;
+.pag {
+  margin: auto;
+  margin-top: 50px;
   padding-bottom: 5px;
   background-color: var(--cor05);
   padding: 30px;
   box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.644);
-  width: 70%;
-  
-  
+  width: 60%;
   
 }
 
@@ -137,6 +136,7 @@ main.pag {
   margin: 30px;
   border: 1px solid black;
   box-shadow: 1px 2px 8px black;
+  
   
   
 }
@@ -325,7 +325,7 @@ textarea {
   border: none;
   border-radius: 4px;
   cursor: pointer;
-  width: 250px;
+  width: 100%;
   padding: 10px;
   margin-left: 5px;
   display: block;
@@ -336,10 +336,6 @@ textarea {
   background-color:var(--cor04);
 }
 
-.enviar {
-  display: block;
-  width: 100%;
- 
-}
+
 
 
