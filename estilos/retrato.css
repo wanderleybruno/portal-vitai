@@ -21,18 +21,32 @@
     .pag01#princ {
       background-color: var(--cor04);
       list-style-type: disc;
-      width: 329px;
-      margin: 30px 5px 30px 5px;
+      width: 300px;
+      margin-left:4px;
       border: 1px solid black;
       box-shadow: 1px 2px 9px rgba(0, 0, 0, 0.61);
+      
     }
 
+    h1.reuniao {
+      font-size: 1.4em;
+    }
+
+    .confo-sis {
+      font-size: 0.9em;
+    }
+
+    
+
+    
    .pag {
-    width: 360px;
+    display: block;
+    width: 330px;
     margin-left: -30px;
+    padding:auto;
    }
 
-   .pag > h3 {
+  .pag > h3 {
     text-align: center;
     font-size: 1.5em;
     margin-bottom: 30px;
@@ -55,9 +69,12 @@
   
   background-image: linear-gradient(to left, white,var(--cor01));
   color: #fff;
-  
-  
-  
+ 
+}
+
+.menu ul li a {
+  padding: 4px;
+  margin-right:-5px ;
 }
 
 /* Estilos para a imagem do logo */
@@ -101,11 +118,27 @@
   display: block;
 }
 
+table {
+  width: 350px;
+  margin: 40px auto;
+  
+}
 
- 
-/* ------------------------- outro teste -------------------------  */
+/* Formulário de troca */
+
+.form_troca {
+  width: 330px;
+  margin: auto;
 
 }
+/* textos na pagina de informações */
+aside#regras {
+  margin-left: 20px;
+}
+
+}
+
+/* ------------------------- outro teste -------------------------  */
 
 @media (min-width: 768px) {
   /* Estilos para telas maiores */
