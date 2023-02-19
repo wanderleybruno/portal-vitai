@@ -22,7 +22,7 @@
       background-color: var(--cor04);
       list-style-type: disc;
       width: 300px;
-      margin-left:4px;
+      margin-left:-7px;
       border: 1px solid black;
       box-shadow: 1px 2px 9px rgba(0, 0, 0, 0.61);
       
@@ -39,7 +39,7 @@
    .pag {
     display: block;
     width: 330px;
-    margin-left: -30px;
+    margin-left: 0px;
     padding:auto;
    }
 
@@ -52,7 +52,10 @@
    .pag > p {
     font-weight: 400;
     font-family: Arial, Helvetica, sans-serif;
+    
    }
+
+  
 
    footer {
     width: auto;
@@ -130,7 +133,20 @@ table {
 }
 /* textos na pagina de informações */
 aside#regras {
-  margin-left: 20px;
+  margin-left: -5px;
+}
+
+/* Botão de download */
+
+.btndown {
+  width: 60px ;
+  right:10%;
+  
+}
+
+.down > p {
+  font-size: 0.9em;
+  
 }
 
 }
