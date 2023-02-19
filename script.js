@@ -43,3 +43,11 @@ ham.addEventListener('click', function() {
 	document.body.classList.toggle('nav-is-toggled')
 })
 
+function clickMenu() {
+  if (itens.style.display == 'block') {
+    itens.style.display = 'none'
+  } else {
+    itens.style.display = 'block'
+  }
+}
+

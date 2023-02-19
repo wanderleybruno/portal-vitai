@@ -52,6 +52,7 @@
 
 /* Estilos básicos para o menu */
 .menu {
+  
   background-image: linear-gradient(to left, white,var(--cor01));
   color: #fff;
   
@@ -68,6 +69,7 @@
 
 /* Estilos para o ícone do menu hamburguer */
 #burguerindex {
+  
   display: block;
   padding: 10px;
 }
