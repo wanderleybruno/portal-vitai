@@ -11,18 +11,20 @@
 }
 
 
-@media only screen and (max-width: 480px) {
+@media only screen and (max-width: 460px) {
     
    * {
     margin: 0px;
     padding: 0px;
+    
    }
-   
-    .pag01#princ {
+
+ .pag01#princ {
+    
       background-color: var(--cor04);
       list-style-type: disc;
-      width: 300px;
-      margin-left:-15px;
+      width: auto;
+      margin:0px;
       border: 1px solid black;
       box-shadow: 1px 2px 9px rgba(0, 0, 0, 0.61);
       
@@ -37,8 +39,9 @@
     }
 
    .pag {
+    
     display: block;
-    width: 320px;
+    width: auto;
     margin-left: 0px;
     padding: auto;
    }
@@ -50,6 +53,7 @@
    }
 
    .pag > p {
+    padding-top: 20px;
     font-weight: 400;
     font-family: Arial, Helvetica, sans-serif;
     
