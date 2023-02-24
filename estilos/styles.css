@@ -146,6 +146,20 @@ thead th {
   padding: 10px;
 }
 
+/* Lei de confidencialidade da aba info */
+
+.artigo {
+  background-color: var(--cor03);
+  border: 1px solid black;
+  padding: 5px;
+  margin: 20px 5px;
+  font-size: 1em;
+ }
+
+ #font {
+  font-size: 0.9em;
+ }
+
 
 
 .reuniao {

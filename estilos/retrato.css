@@ -59,6 +59,19 @@
     
    }
 
+   /* Lei de confidencialidade da aba de info */
+   
+   .artigo {
+    background-color: var(--cor03);
+    border: 1px solid black;
+    padding: 5px;
+    margin: 10px 5px;
+    font-size: 1em;
+   }
+
+   #font {
+    font-size: 0.9em;
+   }
   
 
    footer {
