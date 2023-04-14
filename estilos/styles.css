@@ -353,7 +353,28 @@ footer {
   width: 100;
   
   
+  
+  
 }
+
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  grid-gap: 30px;
+  margin-top:50px;
+  justify-items: center;
+  align-items: center; 
+}
+
+.grid-item {
+  background-color: #ccc;
+  border: 1px solid #000;
+  width: 150px;
+  height: 50px;
+  background-color: var(--cor02);
+}
+
 
 
 
