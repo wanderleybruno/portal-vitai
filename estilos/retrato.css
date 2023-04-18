@@ -166,6 +166,22 @@ aside#regras {
   
 }
 
+.h3tutorial {
+  text-align: center;
+  background-color: var(--cor02);
+  margin-top: 50px;
+  font-size: 1.5em;
+  margin-left: 10px;
+  padding: 20px;
+  
+  
+}
+
+video {
+  display: block;
+  margin-top: -80px;
+}
+
 }
 
 /* ------------------------- outro teste -------------------------  */
