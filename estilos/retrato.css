@@ -171,15 +171,19 @@ aside#regras {
   background-color: var(--cor02);
   margin-top: 50px;
   font-size: 1.5em;
-  margin-left: 10px;
+  margin-left: -20px;
   padding: 20px;
+  width: 100%;
   
   
 }
 
 video {
   display: block;
+  width: 100%;
   margin-top: -80px;
+  margin-left: -10px;
+  
 }
 
 }
