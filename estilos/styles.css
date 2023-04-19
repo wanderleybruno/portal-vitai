@@ -61,13 +61,17 @@ caption {
   padding: 10px;
   
   
+  
 }
 
 
 
 .menu ul li a:hover {
+  
   background-color: var(--cor02);
-  width: auto;
+  width: 100%;
+  box-sizing: border-box;
+  text-align: center;
 }
 
 /* Sub menu */
