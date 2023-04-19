@@ -52,6 +52,7 @@ caption {
   display: inline;
   position:relative ;
   font-size: 15px;
+  text-align: center;
 }
 
 .menu ul li a {
@@ -59,6 +60,7 @@ caption {
   text-decoration: none;
   display: inline-block;
   padding: 10px;
+  text-align: center;
   
   
   
@@ -71,7 +73,7 @@ caption {
   background-color: var(--cor02);
   width: 100%;
   box-sizing: border-box;
-  text-align: center;
+  
 }
 
 /* Sub menu */
@@ -151,6 +153,7 @@ thead th {
   margin: 10px;
   padding: 10px;
 }
+
 
 /* Lei de confidencialidade da aba info */
 
@@ -247,12 +250,14 @@ aside ul li  {
   background-color: var(--cor05);
   padding: 30px;
   box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.644);
+
    
 }
 
 .troca {
   text-align: center;
   margin: 50px;
+  
 }
 
 .rts {
@@ -275,6 +280,8 @@ form {
   
   
 }
+
+
 
 /*-----------------------------------------------------------*/
 
@@ -308,6 +315,7 @@ form {
   display: block;
   text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.815);
   color: white;
+  text-align: center;
 }
 
 textarea {
