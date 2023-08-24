@@ -32,10 +32,11 @@ caption {
 }
 
 .menu img {
-  height:30px;
+  width:70px;
+  height:50px;
   position: absolute;
-  margin-left: 8px;
-  margin-top: 7px;
+  
+  margin-top: px;
 }
 
 .menu ul {
