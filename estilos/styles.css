@@ -33,7 +33,7 @@ caption {
 
 .menu img {
   width:70px;
-  height:50px;
+  height:40px;
   position: absolute;
   
   margin-top: px;
@@ -401,6 +401,15 @@ video {
   padding: 10px;
   display: block;
   margin: auto;
+}
+
+.tutoriais .fonte, .pag .fonte {
+  text-align: center;
+  
+}
+
+.tutoriais .fonte a, .pag .fonte a {
+  text-decoration: none;
 }
 
 .h3tutorial {
