@@ -353,7 +353,7 @@ textarea {
 
 footer {
   
-  
+  margin-top: 40px;
   background-color: var(--cor03);
   padding: 13px;
   text-align: center;
@@ -375,6 +375,11 @@ footer {
   
 }
 
+.grid-container a {
+  text-decoration: none;
+  color: inherit;
+}
+
 .grid-item {   /*  DIV de cada item da aba escala */
   background-color: #ccc;
   border: 1px solid #000;
@@ -388,6 +393,11 @@ footer {
   align-items: center;
   box-shadow: 1px 2px 5px rgba(0, 0, 0, 0.548);
 
+}
+
+.grid-item {
+  padding: 25px;
+  
 }
 
 .grid-item:hover {
